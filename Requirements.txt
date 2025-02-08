@@ -1,0 +1,20 @@
+Required libraries:-
+
+requests
+bs4-beautifulsoup4
+sentence-transformers
+torch
+transformers
+openai
+serpapi
+scikit-learn
+BS4  
+tldextract
+datetime 
+google-search-results
+
+
+Required API keys:-
+
+SERP API
+OpenAI API
