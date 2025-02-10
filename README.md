@@ -1,6 +1,6 @@
 Project 1: Credibility Score for Articles
 
-**Objective **
+**objective**
 
 The objective is to assess the credibility of articles, sources, or references through a credibility score. This proof of concept is grounded in the Retrieval-Augmented Generation (RAG) algorithm. The use case involves:
 
@@ -17,7 +17,7 @@ Innovative Solutions: Consider any other creative solutions that enhance credibi
 Deliverable
 Go back to TOC
 
-**The deliverable 1 **
+**The deliverable 1**
 
 This feature will involve:
 Python Function: A function designed to evaluate the URL of each reference.
