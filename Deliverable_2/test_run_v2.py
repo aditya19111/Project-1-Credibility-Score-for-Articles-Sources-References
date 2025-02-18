@@ -1,15 +1,18 @@
-from Credibility_Score_Deliverable_2 import *
+from Credibility_Score_Deliverable_2 import *  # Ensure this matches your file name
 
-# Instantiate the URLValidator class
-validator = CredibilityScorer()
+# Instantiate the CredibilityScorer class with API keys
+hf_token = "your_huggingface_token"
+serp_api_key = "your_serpapi_key"
 
-# Define user prompt and URL
-user_prompt = "will amd FSR get better than nvidia dlss 4"
-url_to_check = "https://steamcommunity.com/discussions/forum/11/3543798390532636155/"
+scorer = CredibilityScorer(hf_token, serp_api_key)
 
-# Run the validation
-result = validator.rate_url_validity(user_prompt, url_to_check)
+# Define user prompt and URL to validate
+user_query = "Nvidias rtx 5070 new gpu is it really good?"
+url_to_check = "https://www.fool.com/investing/2025/02/09/is-nvidia-still-a-millionaire-maker-stock/"
 
-# Print the results
+# Run the credibility evaluation
+result = scorer.rate_url_validity(user_query, url_to_check)
+
+# Print the results in a readable format
 import json
-print(json.dumps(result, indent=2))
+print(json.dumps(result, indent=
