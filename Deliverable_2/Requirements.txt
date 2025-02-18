@@ -16,4 +16,5 @@ google-search-results
 Required API keys:-
 
 SERP API
+Huggingface API
 
