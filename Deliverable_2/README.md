@@ -23,3 +23,13 @@ This feature will involve:
 Python Function: A function designed to evaluate the URL of each reference.
 Input Argument: The URL of the reference.
 Output: A JSON object containing
+
+**The deliverable 2**
+
+Objective: Provide an in-depth analysis and report on the algorithmic approach and scientific research supporting the credibility scoring.
+Deliverables:
+A comprehensive report covering:
+The underlying algorithm used and its rationale.
+Literature review of existing models and techniques for credibility assessment.
+Justification of chosen methodologies, including both ML-based and rule-based approaches if applicable.
+Documentation to guide future iterations and refinements.
