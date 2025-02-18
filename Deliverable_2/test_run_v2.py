@@ -1,7 +1,7 @@
 from Credibility_Score_Deliverable_2 import *
 
 # Instantiate the URLValidator class
-validator = rate_url_validity()
+validator = CredibilityScorer()
 
 # Define user prompt and URL
 user_prompt = "will amd FSR get better than nvidia dlss 4"
