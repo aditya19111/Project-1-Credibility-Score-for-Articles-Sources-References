@@ -1,7 +1,7 @@
-from deliverable2 import *
+from Credibility_Score_Deliverable_2 import *
 
 # Instantiate the URLValidator class
-validator = URLValidator()
+validator = rate_url_validity()
 
 # Define user prompt and URL
 user_prompt = "I have just been on an international flight, can I come back home to hold my 1-month-old newborn?"
