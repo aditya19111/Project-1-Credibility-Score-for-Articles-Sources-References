@@ -11,6 +11,7 @@ BS4
 tldextract
 datetime 
 google-search-results
+readability
 
 
 Required API keys:-
