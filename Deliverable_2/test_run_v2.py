@@ -4,8 +4,8 @@ from Credibility_Score_Deliverable_2 import *
 validator = rate_url_validity()
 
 # Define user prompt and URL
-user_prompt = "I have just been on an international flight, can I come back home to hold my 1-month-old newborn?"
-url_to_check = "https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/air-travel-with-infant/faq-20058539"
+user_prompt = "will amd FSR get better than nvidia dlss 4"
+url_to_check = "https://steamcommunity.com/discussions/forum/11/3543798390532636155/"
 
 # Run the validation
 result = validator.rate_url_validity(user_prompt, url_to_check)
