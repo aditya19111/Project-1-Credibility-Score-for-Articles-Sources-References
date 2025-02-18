@@ -4,19 +4,6 @@
 Student - Aditya Bhavsar
 """
 
-#Required installation of the following library
-!pip install tldextract
-
-!pip install readability
-
-!pip install textstat
-
-import os
-os.environ["HF_TOKEN"] = "Your Hf Token"
-
-from huggingface_hub import login
-login(token=os.getenv("HF_TOKEN"))
-
 import requests
 import tldextract
 from datetime import datetime
