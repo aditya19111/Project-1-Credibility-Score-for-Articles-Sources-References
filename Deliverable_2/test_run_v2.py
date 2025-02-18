@@ -15,4 +15,4 @@ result = scorer.rate_url_validity(user_query, url_to_check)
 
 # Print the results in a readable format
 import json
-print(json.dumps(result, indent=
+print(json.dumps(result, indent=2))
