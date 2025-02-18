@@ -12,6 +12,7 @@ tldextract
 datetime 
 google-search-results
 readability
+textstat
 
 
 Required API keys:-
