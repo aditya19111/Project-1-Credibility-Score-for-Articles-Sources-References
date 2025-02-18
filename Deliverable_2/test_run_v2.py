@@ -1,4 +1,4 @@
-from Credibility_Score_Deliverable_2 import *  # Ensure this matches your file name
+from 2_credibility_score_deliverable_2 import *  # Ensure this matches your file name
 
 # Instantiate the CredibilityScorer class with API keys
 hf_token = "your_huggingface_token"
