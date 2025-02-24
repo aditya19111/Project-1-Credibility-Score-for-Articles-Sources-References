@@ -33,3 +33,12 @@ The underlying algorithm used and its rationale.
 Literature review of existing models and techniques for credibility assessment.
 Justification of chosen methodologies, including both ML-based and rule-based approaches if applicable.
 Documentation to guide future iterations and refinements.
+
+**The deliverable 3**
+
+Objective: Integrate the finalized Python function into live applications and ensure seamless operation with the chatbot.
+Deliverables:
+Full implementation of the credibility scoring feature within the chatbot platform.
+Testing and validation to ensure correct functionality and user interaction.
+Integration support using a provided application template to streamline the process.
+Please the following rubrics for this deliverable!
