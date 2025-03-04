@@ -10,6 +10,10 @@ Features:
 - Optimized with AdamW optimizer and MSE loss for regression tasks.
 - Uses TensorFlow and Hugging Face Transformers.
 
+Model used:
+1st the most suitable choice according to our dataset was using a classification model.
+This was just done out of curiosity where i have used regression model on the same dataset
+
 Installation:
 pip install tensorflow transformers pandas numpy matplotlib
 
